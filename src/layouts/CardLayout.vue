@@ -1,7 +1,6 @@
 <script setup lang="ts">
 defineProps<{
   headerImage: string;
-  content: any;
 }>();
 </script>
 
