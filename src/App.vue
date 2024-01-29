@@ -1,6 +1,11 @@
 <script setup lang="ts">
 import CardLayout from "./layouts/CardLayout.vue";
 import CountPage from "./pages/Count.vue";
+import IconTwitter from "~icons/formkit/twitter";
+
+function toTwitter() {
+  window.open("https://twitter.com/egnarregnar", "_blank");
+}
 </script>
 
 <template>
@@ -9,8 +14,10 @@ import CountPage from "./pages/Count.vue";
       <CountPage></CountPage>
     </template>
     <template #footer>
-      <div class="flex">
-        test
+      <div class="flex justify-center">
+        <button @click="toTwitter">
+          <IconTwitter style="font-size: 2em; color: gray;" />
+        </button>
       </div>
     </template>
   </CardLayout>
