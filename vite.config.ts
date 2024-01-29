@@ -1,8 +1,9 @@
+import Icons from 'unplugin-icons/vite'
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [vue()],
-  base: '/eg-commission-info/'
-})
+  plugins: [vue(), Icons()],
+  base: "/eg-commission-info/",
+});

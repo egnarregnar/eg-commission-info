@@ -1,29 +1,26 @@
-<script  lang="ts">
-import { defineComponent } from "vue";
+<script setup lang="ts">
+import CardLayout from "./layouts/CardLayout.vue";
+import CountPage from "./pages/Count.vue";
+import IconTwitter from "~icons/formkit/twitter";
 
-export default defineComponent({
-  data() {
-    return {
-      isExpanded: false,
-    };
-  },
-  methods: {
-    toggleExpand() {
-      console.log("test");
-      this.isExpanded = !this.isExpanded;
-    },
-  },
-});
+function toTwitter() {
+  window.open("https://twitter.com/egnarregnar", "_blank");
+}
 </script>
 
 <template>
-  <div>
-    <p
-      class="text-3xl font-bold underline"
-      v-show="isExpanded"
-    >Lorem Ipsum</p>
-    <button @click="toggleExpand">Toggle</button>
-  </div>
+  <CardLayout headerImage="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/2560px-Image_created_with_a_mobile_phone.png">
+    <template #content>
+      <CountPage></CountPage>
+    </template>
+    <template #footer>
+      <div class="flex justify-center">
+        <button @click="toTwitter">
+          <IconTwitter style="font-size: 2em; color: gray;" />
+        </button>
+      </div>
+    </template>
+  </CardLayout>
 </template>
 
 <style>
