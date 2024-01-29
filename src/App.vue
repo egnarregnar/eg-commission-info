@@ -18,7 +18,10 @@ export default defineComponent({
 
 <template>
   <div>
-    <p v-show="isExpanded">Lorem Ipsum</p>
+    <p
+      class="text-3xl font-bold underline"
+      v-show="isExpanded"
+    >Lorem Ipsum</p>
     <button @click="toggleExpand">Toggle</button>
   </div>
 </template>
