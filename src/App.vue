@@ -1,9 +1,19 @@
 <script setup lang="ts">
-import CardLayout from "./components/CardLayout.vue";
+import CardLayout from "./layouts/CardLayout.vue";
+import CountPage from "./pages/Count.vue";
 </script>
 
 <template>
-  <CardLayout></CardLayout>
+  <CardLayout headerImage="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/2560px-Image_created_with_a_mobile_phone.png">
+    <template #content>
+      <CountPage></CountPage>
+    </template>
+    <template #footer>
+      <div class="flex">
+        test
+      </div>
+    </template>
+  </CardLayout>
 </template>
 
 <style>
