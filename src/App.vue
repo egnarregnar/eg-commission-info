@@ -1,27 +1,67 @@
 <script setup lang="ts">
 import CardLayout from "./layouts/CardLayout.vue";
-import CountPage from "./pages/Count.vue";
+import CommissionTypesPage from "./pages/CommissionTypes.vue";
 import IconTwitter from "~icons/formkit/twitter";
+import { useUserStore } from "./store/user";
+import { storeToRefs } from "pinia";
+
+const store = useUserStore();
+const { choice } = storeToRefs(store);
+const { resetChoice } = store;
 
 function toTwitter() {
   window.open("https://twitter.com/egnarregnar", "_blank");
 }
+
+const stuff = [
+  {
+    key: "1",
+    name: "Normal Art",
+    image:
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/2560px-Image_created_with_a_mobile_phone.png",
+  },
+  {
+    key: "2",
+    name: "Manga",
+    image:
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/2560px-Image_created_with_a_mobile_phone.png",
+  },
+  {
+    key: "3",
+    name: "Discord Emotes",
+    image:
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/2560px-Image_created_with_a_mobile_phone.png",
+  },
+];
 </script>
 
 <template>
   <CardLayout headerImage="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/2560px-Image_created_with_a_mobile_phone.png">
     <template #content>
-      <CountPage></CountPage>
+      <div
+        v-if='choice !== ""'
+        class="flex-col justify-center p-8"
+      >
+        <p class="text-center">{{ choice }}</p>
+        <button
+          @click="resetChoice"
+          class="font-bold"
+        >Back</button>
+      </div>
+      <CommissionTypesPage
+        v-else
+        :choices="stuff"
+      ></CommissionTypesPage>
     </template>
     <template #footer>
-      <div class="flex justify-center">
+      <div class="flex justify-center p-8">
         <button @click="toTwitter">
           <IconTwitter style="font-size: 2em; color: gray;" />
         </button>
       </div>
     </template>
   </CardLayout>
-  <p class="center-of-screen to-back">Please enable Javascript on your browser.</p>
+
 </template>
 
 <style>
