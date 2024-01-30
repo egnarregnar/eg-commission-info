@@ -1,5 +1,9 @@
 <script setup lang="ts">
 import Card from "../components/Card.vue";
+import { useUserStore } from "../store/user";
+
+const store = useUserStore();
+const { choose } = store;
 
 defineProps<{
   choices: { key: string; name: string; image: string };
@@ -14,6 +18,7 @@ defineProps<{
     <div class="px-16 flex flex-wrap justify-center gap-4">
       <Card
         v-for="choice in choices"
+        @click="choose(choice.name)"
         :key="choice.key"
         :headerImage="choice.image"
       >
