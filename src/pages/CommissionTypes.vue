@@ -5,8 +5,14 @@ import { useUserStore } from "../store/user";
 const store = useUserStore();
 const { choose } = store;
 
+export interface CommissionType {
+  key: string;
+  name: string;
+  image: string;
+}
+
 defineProps<{
-  choices: { key: string; name: string; image: string };
+  choices: CommissionType[];
 }>();
 </script>
 
