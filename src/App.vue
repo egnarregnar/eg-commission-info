@@ -21,6 +21,7 @@ function toTwitter() {
       </div>
     </template>
   </CardLayout>
+  <p class="center-of-screen to-back">Please enable Javascript on your browser.</p>
 </template>
 
 <style>

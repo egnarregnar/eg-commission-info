@@ -5,3 +5,14 @@
 :root {
   background-color: purple;
 }
+
+.center-of-screen {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.to-back {
+  z-index: -1;
+}
