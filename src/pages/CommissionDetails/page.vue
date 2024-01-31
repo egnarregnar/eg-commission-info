@@ -9,8 +9,8 @@ const { resetChoice } = store;
 
 <template>
   <div class="flex-col justify-center p-8">
-    <p class="text-center">{{ chosenChoice.name }}</p>
-    <p>{{ chosenChoice.description }}</p>
+    <p class="text-center">{{ chosenChoice?.name }}</p>
+    <p>{{ chosenChoice?.description }}</p>
     <button
       @click="resetChoice"
       class="font-bold"

@@ -4,7 +4,7 @@ import COMMISSION_TYPES from "@data/commission-types.json";
 
 export const useCategoryStore = defineStore("category", {
   state: () => ({
-    chosenChoice: null,
+    chosenChoice: null as CommissionType | null,
   }),
   actions: {
     getChoices() {
