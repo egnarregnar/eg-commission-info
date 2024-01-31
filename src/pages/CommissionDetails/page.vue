@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { useCategoryStore } from "../../store/category";
+import { useCategoryStore } from "@/store/category";
 import { storeToRefs } from "pinia";
 
 const store = useCategoryStore();

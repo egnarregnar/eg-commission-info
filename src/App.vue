@@ -1,10 +1,10 @@
 <script setup lang="ts">
-import CardLayout from "./layouts/CardLayout.vue";
-import ChooseCommissionPage from "./pages/ChooseCommission/page.vue";
-import CommissionDetailsPage from "./pages/CommissionDetails/page.vue";
-import Footer from "./components/Footer.vue";
+import CardLayout from "@/layouts/CardLayout.vue";
+import ChooseCommissionPage from "@/pages/ChooseCommission/page.vue";
+import CommissionDetailsPage from "@/pages/CommissionDetails/page.vue";
+import Footer from "@/components/Footer.vue";
 
-import { useCategoryStore } from "./store/category";
+import { useCategoryStore } from "@/store/category";
 import { storeToRefs } from "pinia";
 
 const store = useCategoryStore();

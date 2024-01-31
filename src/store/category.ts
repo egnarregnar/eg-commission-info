@@ -1,6 +1,6 @@
 import { defineStore } from "pinia";
-import { CommissionType } from "../interface";
-import COMMISSION_TYPES from "../statics/data/commission-types.json";
+import { CommissionType } from "@/interface";
+import COMMISSION_TYPES from "@data/commission-types.json";
 
 export const useCategoryStore = defineStore("category", {
   state: () => ({

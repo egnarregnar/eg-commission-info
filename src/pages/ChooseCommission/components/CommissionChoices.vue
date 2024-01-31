@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import Card from "../../../components/Card.vue";
-import { useCategoryStore } from "../../../store/category";
+import Card from "@/components/Card.vue";
+import { useCategoryStore } from "@/store/category";
 
 const store = useCategoryStore();
 const { getChoices, choose } = store;
