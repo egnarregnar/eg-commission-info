@@ -1,15 +1,10 @@
 <script setup lang="ts">
 import Card from "../components/Card.vue";
-import { useUserStore } from "../store/user";
+import { useCategoryStore } from "../store/category";
+import { CommissionType } from "../interface";
 
-const store = useUserStore();
+const store = useCategoryStore();
 const { choose } = store;
-
-export interface CommissionType {
-  key: string;
-  name: string;
-  image: string;
-}
 
 defineProps<{
   choices: CommissionType[];
@@ -25,8 +20,8 @@ defineProps<{
       <Card
         v-for="choice in choices"
         @click="choose(choice.name)"
-        :key="choice.key"
-        :headerImage="choice.image"
+        :key="choice.id"
+        :headerImage="choice.thumbnail_image"
       >
         <div class="flex p-8 justify-center">
           <p>{{ choice.name }}</p>
@@ -38,3 +33,4 @@ defineProps<{
 
 <style>
 </style>
+../store/categories
