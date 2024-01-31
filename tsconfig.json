@@ -21,6 +21,10 @@
     "noFallthroughCasesInSwitch": true,
 
     "types": ["unplugin-icons/types/vue"],
+    "paths": {
+      "@/*": ["./src/*"],
+      "@data/*": ["./src/statics/data/*"],
+    },
   },
   "include": ["src/**/*.ts", "src/**/*.tsx", "src/**/*.vue"],
   "references": [{ "path": "./tsconfig.node.json" }],
