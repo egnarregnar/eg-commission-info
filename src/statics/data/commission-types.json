@@ -1,8 +1,8 @@
 [
   {
     "id": 0,
-    "name": "Sample Category 1",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus gravida tincidunt luctus. Sed tristique turpis quis pellentesque iaculis. Vivamus a ex hendrerit, posuere augue a, semper dolor. Proin tempus sem ipsum, nec tempor sem faucibus in. Sed vel turpis est. Aliquam nisl metus, porttitor sed lobortis eget, mollis non arcu. Cras suscipit est in felis gravida pellentesque. Vivamus ornare, tortor ut viverra eleifend, dui nisi aliquam erat, mollis porttitor libero elit ut felis. Quisque ut ligula vitae velit cursus mattis sit amet vitae tortor. Mauris ac malesuada ipsum. Suspendisse potenti. Maecenas a hendrerit quam, vitae finibus eros. Duis a ipsum lorem. ",
+    "name": "Illustration",
+    "description": "As the name suggested, I will be drawing a single illustration. It can be anything though. I have even drawn a character sheet before!\n - Max characters: 3\n - Simple background OK! \n - Complex background: cost subject to consideration.",
     "thumbnail_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/2560px-Image_created_with_a_mobile_phone.png",
     "gallery_images": [
       "https://pbs.twimg.com/profile_images/1741514646580846592/nZVJvggV_400x400.jpg"
@@ -11,7 +11,17 @@
   },
   {
     "id": 1,
-    "name": "Sample Category 2",
+    "name": "Manga",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus gravida tincidunt luctus. Sed tristique turpis quis pellentesque iaculis. Vivamus a ex hendrerit, posuere augue a, semper dolor. Proin tempus sem ipsum, nec tempor sem faucibus in. Sed vel turpis est. Aliquam nisl metus, porttitor sed lobortis eget, mollis non arcu. Cras suscipit est in felis gravida pellentesque. Vivamus ornare, tortor ut viverra eleifend, dui nisi aliquam erat, mollis porttitor libero elit ut felis. Quisque ut ligula vitae velit cursus mattis sit amet vitae tortor. Mauris ac malesuada ipsum. Suspendisse potenti. Maecenas a hendrerit quam, vitae finibus eros. Duis a ipsum lorem. ",
+    "thumbnail_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/2560px-Image_created_with_a_mobile_phone.png",
+    "gallery_images": [
+      "https://pbs.twimg.com/profile_images/1741514646580846592/nZVJvggV_400x400.jpg"
+    ],
+    "has_table": false
+  },
+  {
+    "id": 2,
+    "name": "Discord Emotes",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus gravida tincidunt luctus. Sed tristique turpis quis pellentesque iaculis. Vivamus a ex hendrerit, posuere augue a, semper dolor. Proin tempus sem ipsum, nec tempor sem faucibus in. Sed vel turpis est. Aliquam nisl metus, porttitor sed lobortis eget, mollis non arcu. Cras suscipit est in felis gravida pellentesque. Vivamus ornare, tortor ut viverra eleifend, dui nisi aliquam erat, mollis porttitor libero elit ut felis. Quisque ut ligula vitae velit cursus mattis sit amet vitae tortor. Mauris ac malesuada ipsum. Suspendisse potenti. Maecenas a hendrerit quam, vitae finibus eros. Duis a ipsum lorem. ",
     "thumbnail_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/2560px-Image_created_with_a_mobile_phone.png",
     "gallery_images": [
