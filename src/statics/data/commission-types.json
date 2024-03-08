@@ -7,7 +7,12 @@
     "gallery_images": [
       "https://pbs.twimg.com/profile_images/1741514646580846592/nZVJvggV_400x400.jpg"
     ],
-    "has_table": false
+    "has_table": true,
+    "table_data": [
+      ["", "B&W / Flat Color", "Full CG"],
+      ["Half Body/Chibi", "25USD", "30USD"],
+      ["Full Body", "20USD", "27USD"]
+    ]
   },
   {
     "id": 1,
