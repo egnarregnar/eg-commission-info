@@ -2,6 +2,7 @@
 import { useCategoryStore } from "@/store/category";
 import { storeToRefs } from "pinia";
 import Markdown from "@/components/Markdown.vue";
+import CommissionPriceTable from "@/components/CommissionPriceTable.vue";
 
 const store = useCategoryStore();
 const { chosenChoice } = storeToRefs(store);
@@ -21,6 +22,15 @@ const { resetChoice } = store;
         src="@assets/images/pog.png"
       />
       <Markdown :source="chosenChoice?.description" />
+    </div>
+
+    <br />
+
+    <div class="flex justify-center">
+      <CommissionPriceTable
+        v-if="chosenChoice?.has_table"
+        :data="chosenChoice.table_data || []"
+      />
     </div>
 
     <button

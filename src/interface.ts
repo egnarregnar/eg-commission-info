@@ -5,4 +5,5 @@ export interface CommissionType {
   thumbnail_image: string;
   gallery_images: string[];
   has_table: boolean;
+  table_data?: string[][];
 }
