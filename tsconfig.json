@@ -23,6 +23,7 @@
     "types": ["unplugin-icons/types/vue"],
     "paths": {
       "@/*": ["./src/*"],
+      "@assets/*": ["./src/assets/*"],
       "@data/*": ["./src/statics/data/*"],
     },
   },
