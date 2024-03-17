@@ -2,7 +2,7 @@
   {
     "id": 0,
     "name": "Illustration",
-    "description": "As the name suggested, I will be drawing a single illustration. It can be anything though. I have even drawn a character sheet before!\n - Max characters: 3\n - Simple background OK! \n - Complex background: cost subject to consideration.",
+    "description": " - For this type of commission, I will generally draw whatever you want! Except, if it is a comic or a set of Discord emotes or stickers, please refer to their pages for the pricing.\n - The base price for illustration is as followed:\n - **Half Body & Flat Color**: 20USD\n - **Full Body & Flat Color**: 25USD\n - **Half Body & Full CG**: 30USD\n - **Full Body & Full CG**: 35USD\n - Grayscale is considered as Flat Color.\n - Chibi is considered as Half Body.\n - Each additional character costs at least 10USD.\n - Simple background is free, but more complex background costs at least 10USD.\n - I may charge you additionally for complex details.",
     "thumbnail_image": "illust-half-full.png",
     "gallery_images": [
       "illust-1.png",
@@ -23,11 +23,11 @@
       },
       {
         "image": "illust-half-full.png",
-        "description": "- **Base half body full color price**: 27USD\n - **1 Extra Character**: 10USD each\n - **Complex background**: 40USD\n - **Total**: 77USD"
+        "description": "- **Base half body full color price**: 30USD\n - **1 Extra Character**: 10USD each\n - **Complex background**: 40USD\n - **Total**: 80USD"
       },
       {
         "image": "illust-full-full.png",
-        "description": "- **Base full body full color price**: 25USD\n- **1 Extra Character**: 10USD each (Goat)\n - **Complext background**: 10USD (Paint over photo)\n - **Total**: 45USD"
+        "description": "- **Base full body full color price**: 35USD\n- **1 Extra Character**: 10USD each (Goat)\n - **Complext background**: 10USD (Paint over photo)\n - **Total**: 55USD"
       }
     ]
   },
