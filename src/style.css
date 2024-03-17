@@ -3,7 +3,16 @@
 @tailwind utilities;
 
 :root {
-  background-color: purple;
+  background: linear-gradient(
+    0deg,
+    rgba(241, 168, 134, 1) 0%,
+    rgba(255, 210, 189, 1) 100%
+  );
+  min-height: 100%;
+  font-family: "Mali", ui-sans-serif, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  color: #4d0000;
 }
 
 .center-of-screen {

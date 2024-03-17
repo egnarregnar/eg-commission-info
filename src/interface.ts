@@ -4,6 +4,8 @@ export interface CommissionType {
   description: string;
   thumbnail_image: string;
   gallery_images: string[];
-  has_table: boolean;
-  table_data?: string[][];
+  pricing_examples: {
+    image: string;
+    description: string;
+  }[];
 }
