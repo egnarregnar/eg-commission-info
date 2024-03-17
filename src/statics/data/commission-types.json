@@ -3,29 +3,31 @@
     "id": 0,
     "name": "Illustration",
     "description": "As the name suggested, I will be drawing a single illustration. It can be anything though. I have even drawn a character sheet before!\n - Max characters: 3\n - Simple background OK! \n - Complex background: cost subject to consideration.",
-    "thumbnail_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/2560px-Image_created_with_a_mobile_phone.png",
+    "thumbnail_image": "illust-half-full.png",
     "gallery_images": [
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/2560px-Image_created_with_a_mobile_phone.png",
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Saint_Patrick_Catholic_Church_%28Junction_City%2C_Ohio%29_-_stained_glass%2C_Saint_Patrick_-_detail.jpg/1000px-Saint_Patrick_Catholic_Church_%28Junction_City%2C_Ohio%29_-_stained_glass%2C_Saint_Patrick_-_detail.jpg",
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Casa_hist%C3%B3rica_de_Boroujerdi%2C_Kashan%2C_Ir%C3%A1n%2C_2016-09-19%2C_DD_32.jpg/1599px-Casa_hist%C3%B3rica_de_Boroujerdi%2C_Kashan%2C_Ir%C3%A1n%2C_2016-09-19%2C_DD_32.jpg?20200509205233",
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/2021-06-05_Matteo_Giubellini_at_SMJ_Kunstturnen_2021_P6_All-around_Competition_%28Martin_Rulsch%29_062.jpg/816px-2021-06-05_Matteo_Giubellini_at_SMJ_Kunstturnen_2021_P6_All-around_Competition_%28Martin_Rulsch%29_062.jpg?20210630024853"
+      "illust-1.png",
+      "illust-5.png",
+      "illust-3.png",
+      "illust-4.png",
+      "illust-2.png",
+      "illust-7.png"
     ],
     "pricing_examples": [
       {
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/2560px-Image_created_with_a_mobile_phone.png",
-        "description": "**Base half body flat color price**: 25USD\n - **2 Extra Characters**: 5USD each\n - **Total**: 35USD"
+        "image": "illust-half-flat.png",
+        "description": "- **Base half body flat color price**: 20USD\n - **2 Extra Characters**: 10USD each\n - **Total**: 40USD"
       },
       {
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/2560px-Image_created_with_a_mobile_phone.png",
-        "description": "Base half body flat color price: 25USD\n+ 2 Extra Characters: 5USD each"
+        "image": "illust-full-flat.png",
+        "description": "- **Base full body flat color price**: 25USD\n - **3 Extra characters**: 10USD each\n - **Simple background**: Free\n - **Total**: 55USD"
       },
       {
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/2560px-Image_created_with_a_mobile_phone.png",
-        "description": "Base half body flat color price: 25USD\n+ 2 Extra Characters: 5USD each"
+        "image": "illust-half-full.png",
+        "description": "- **Base half body full color price**: 27USD\n - **1 Extra Character**: 10USD each\n - **Complex background**: 40USD\n - **Total**: 77USD"
       },
       {
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/2560px-Image_created_with_a_mobile_phone.png",
-        "description": "Base half body flat color price: 25USD\n+ 2 Extra Characters: 5USD each"
+        "image": "illust-full-full.png",
+        "description": "- **Base full body full color price**: 25USD\n- **1 Extra Character**: 10USD each (Goat)\n - **Complext background**: 10USD (Paint over photo)\n - **Total**: 45USD"
       }
     ]
   },

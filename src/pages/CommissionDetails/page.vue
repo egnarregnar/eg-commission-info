@@ -2,11 +2,12 @@
 import { useCategoryStore } from "@/store/category";
 import { storeToRefs } from "pinia";
 import Markdown from "@/components/Markdown.vue";
-import Card from "@/components/Card.vue";
 import MasonGallery from "./components/MasonGallery.vue";
+import MasonImageWithText from "./components/MasonImageWithText.vue";
 
 const store = useCategoryStore();
 const { chosenChoice } = storeToRefs(store);
+const { resetChoice } = store;
 </script>
 
 <template>
@@ -22,20 +23,10 @@ const { chosenChoice } = storeToRefs(store);
       class="text-center text-2xl font-bold mb-4 mt-8"
     >Pricing Examples</p>
 
-    <div
+    <MasonImageWithText
       v-if="(chosenChoice?.pricing_examples?.length || 0) > 0"
-      class="grid md:grid-cols-2 gap-8"
-    >
-      <Card
-        v-for="(each, index) in chosenChoice?.pricing_examples"
-        :key="index"
-        :headerImage="each.image"
-      >
-        <div class="p-6">
-          <Markdown :source="each?.description" />
-        </div>
-      </Card>
-    </div>
+      :items="chosenChoice?.pricing_examples || []"
+    />
 
     <p
       v-if="(chosenChoice?.gallery_images?.length || 0) > 0"
@@ -46,6 +37,13 @@ const { chosenChoice } = storeToRefs(store);
       v-if="(chosenChoice?.gallery_images?.length || 0) > 0"
       :images="chosenChoice?.gallery_images || []"
     />
+
+    <div class="flex justify-center mt-8">
+      <button
+        @click="resetChoice"
+        class="font-bold"
+      >{{ '< Back >' }}</button>
+    </div>
   </div>
 </template>
 

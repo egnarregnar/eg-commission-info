@@ -12,7 +12,7 @@ const { chosenChoice } = storeToRefs(store);
 </script>
 
 <template>
-  <CardLayout headerImage="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/2560px-Image_created_with_a_mobile_phone.png">
+  <CardLayout headerImage="illust-full-full.png">
     <template #content>
       <CommissionDetailsPage v-if="chosenChoice !== null"></CommissionDetailsPage>
       <ChooseCommissionPage v-else></ChooseCommissionPage>
