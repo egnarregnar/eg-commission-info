@@ -4,8 +4,10 @@
 
 <script setup lang="ts">
 import MarkdownIt from "markdown-it";
+import HeaderSections from "markdown-it-header-sections";
 
-const markdown = new MarkdownIt();
+const markdown = new MarkdownIt("commonmark");
+markdown.use(HeaderSections);
 
 defineProps({
   source: {

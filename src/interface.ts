@@ -9,3 +9,7 @@ export interface CommissionType {
     description: string;
   }[];
 }
+
+export interface TermsAndConditions {
+  greetings: string;
+}
