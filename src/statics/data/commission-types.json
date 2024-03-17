@@ -2,7 +2,7 @@
   {
     "id": 0,
     "name": "Illustration",
-    "description": " - For this type of commission, I will generally draw whatever you want! Except, if it is a comic or a set of Discord emotes or stickers, please refer to their pages for the pricing.\n - The base price for illustration is as followed:\n - **Half Body & Flat Color**: 20USD\n - **Full Body & Flat Color**: 25USD\n - **Half Body & Full CG**: 30USD\n - **Full Body & Full CG**: 35USD\n - Grayscale is considered as Flat Color.\n - Chibi is considered as Half Body.\n - Each additional character costs at least 10USD.\n - Simple background is free, but more complex background costs at least 10USD.\n - I may charge you additionally for complex details.",
+    "description": "  For this type of commission, I will generally draw whatever you want! Except, if it is a comic or a set of Discord emotes or stickers, please refer to their pages for the pricing.\n\n The base price for illustration is as followed:\n\n **Half Body & Flat Color**: 20USD\n\n **Full Body & Flat Color**: 25USD\n\n **Half Body & Full CG**: 30USD\n\n **Full Body & Full CG**: 35USD\n\n Grayscale is considered as Flat Color.\n\n Chibi is considered as Half Body.\n\n Each additional character costs at least 10USD.\n\n Simple background is free, but more complex background costs at least 10USD.\n\n I may charge you additionally for complex details.",
     "thumbnail_image": "illust-half-full.png",
     "gallery_images": [
       "illust-1.png",
@@ -15,46 +15,37 @@
     "pricing_examples": [
       {
         "image": "illust-half-flat.png",
-        "description": "- **Base half body flat color price**: 20USD\n - **2 Extra Characters**: 10USD each\n - **Total**: 40USD"
+        "description": " **Base half body flat color price**: 20USD\n\n **2 Extra Characters**: 10USD each\n\n **Total**: 40USD"
       },
       {
         "image": "illust-full-flat.png",
-        "description": "- **Base full body flat color price**: 25USD\n - **3 Extra characters**: 10USD each\n - **Simple background**: Free\n - **Total**: 55USD"
+        "description": " **Base full body flat color price**: 25USD\n\n **3 Extra characters**: 10USD each\n\n **Simple background**: Free\n\n **Total**: 55USD"
       },
       {
         "image": "illust-half-full.png",
-        "description": "- **Base half body full color price**: 30USD\n - **1 Extra Character**: 10USD each\n - **Complex background**: 40USD\n - **Total**: 80USD"
+        "description": " **Base half body full color price**: 30USD\n\n **1 Extra Character**: 10USD each\n\n **Complex background**: 40USD\n\n **Total**: 80USD"
       },
       {
         "image": "illust-full-full.png",
-        "description": "- **Base full body full color price**: 35USD\n- **1 Extra Character**: 10USD each (Goat)\n - **Complext background**: 10USD (Paint over photo)\n - **Total**: 55USD"
+        "description": " **Base full body full color price**: 35USD\n **1 Extra Character**: 10USD each (Goat)\n\n **Complext background**: 10USD (Paint over photo)\n\n **Total**: 55USD"
       }
     ]
   },
   {
     "id": 1,
     "name": "Comic",
-    "description": " - For this type of commission, I will be drawing a comic of whatever you want! Within reasons of course. The pricing for this type of commission is a bit difficult to calculate, as in addition to the drawing process, it might take a long time to settle on a draft.\n - **Base grayscale comic price**: 50USD\n - **Base color comic price**: 70USD\n - **Max no. of pages**: 3",
+    "description": "  For this type of commission, I will be drawing a comic of whatever you want! Within reasons of course. The pricing for this type of commission is a bit difficult to calculate, as in addition to the drawing process, it might take a long time to settle on a draft.\n\n **Base grayscale comic price**: 50USD\n\n **Base color comic price**: 70USD\n\n **Max no. of pages**: 3",
     "thumbnail_image": "comic-thumbnail.png",
     "gallery_images": ["comic-1.png", "comic-2.png", "comic-3.png"],
     "pricing_examples": [
       {
         "image": "comic-grayscale.jpeg",
-        "description": "- **Base grayscale comic price**: 50USD\n - **Total**: 50USD"
+        "description": " **Base grayscale comic price**: 50USD\n\n **Total**: 50USD"
       },
       {
         "image": "comic-color.png",
-        "description": "- **Base color comic price**: 70USD\n - **Total**: 70USD"
+        "description": " **Base color comic price**: 70USD\n\n **Total**: 70USD"
       }
-    ]
-  },
-  {
-    "id": 2,
-    "name": "Discord Emotes",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus gravida tincidunt luctus. Sed tristique turpis quis pellentesque iaculis. Vivamus a ex hendrerit, posuere augue a, semper dolor. Proin tempus sem ipsum, nec tempor sem faucibus in. Sed vel turpis est. Aliquam nisl metus, porttitor sed lobortis eget, mollis non arcu. Cras suscipit est in felis gravida pellentesque. Vivamus ornare, tortor ut viverra eleifend, dui nisi aliquam erat, mollis porttitor libero elit ut felis. Quisque ut ligula vitae velit cursus mattis sit amet vitae tortor. Mauris ac malesuada ipsum. Suspendisse potenti. Maecenas a hendrerit quam, vitae finibus eros. Duis a ipsum lorem. ",
-    "thumbnail_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/2560px-Image_created_with_a_mobile_phone.png",
-    "gallery_images": [
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/2560px-Image_created_with_a_mobile_phone.png"
     ]
   }
 ]

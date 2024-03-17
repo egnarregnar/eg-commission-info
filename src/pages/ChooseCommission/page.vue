@@ -1,11 +1,11 @@
 <script setup lang="ts">
 import CommissionChoices from "./components/CommissionChoices.vue";
-import GreetingMessage from "./components/GreetingMessage.vue";
+import TermsAndConditions from "./components/TermsAndConditions.vue";
 </script>
 
 <template>
   <div class="flex-col py-8">
-    <GreetingMessage></GreetingMessage>
+    <TermsAndConditions></TermsAndConditions>
     <CommissionChoices></CommissionChoices>
   </div>
 </template>
