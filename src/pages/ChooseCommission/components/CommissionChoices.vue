@@ -14,7 +14,8 @@ const choices = getChoices();
       @click="choose(choice)"
       :key="choice.id"
       :headerImage="choice.thumbnail_image"
-      :cardClasses="'w-64'"
+      cardClasses="w-64"
+      imageClasses="h-48"
     >
       <div class="flex p-6 justify-center">
         <p>{{ choice.name }}</p>

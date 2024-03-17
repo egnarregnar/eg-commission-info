@@ -3,6 +3,7 @@ defineProps<{
   headerImage: string;
   cardStyle?: any;
   cardClasses?: any;
+  imageClasses?: any;
 }>();
 </script>
 
@@ -16,6 +17,7 @@ defineProps<{
       <img
         class="rounded-t-xl object-cover grow"
         :src="headerImage"
+        :class="imageClasses"
       />
     </div>
     <slot></slot>
