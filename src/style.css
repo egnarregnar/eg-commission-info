@@ -15,6 +15,12 @@
   color: #4d0000;
 }
 
+#app {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 .center-of-screen {
   position: fixed;
   top: 50%;

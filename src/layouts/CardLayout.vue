@@ -5,7 +5,7 @@ defineProps<{
 </script>
 
 <template>
-  <div class="flex justify-center ">
+  <div class="flex justify-center max-w-screen-lg">
     <div class="flex-col bg-white rounded-xl sm:m-8 m-4">
       <div class="flex">
         <img
