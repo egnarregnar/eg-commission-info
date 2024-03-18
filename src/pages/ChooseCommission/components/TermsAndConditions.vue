@@ -7,7 +7,7 @@ import TermsAndConditions from "@data/terms-conds.json";
   <div class="flex-col justify-center items-center px-16">
     <p style="font-style: italic; font-size: 0.8em; text-align: end;">Version: {{ TermsAndConditions.version }} Last Update: {{ TermsAndConditions.last_update }}</p>
     <Markdown :source="TermsAndConditions.terms" />
-    <div class="grid grid-cols-2 mb-4">
+    <div class="grid sm:grid-cols-2 mb-4">
       <div class="flex-col">
         <h1 class="text-center">What I will draw</h1>
         <ul class="mx-6">

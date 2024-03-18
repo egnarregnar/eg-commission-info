@@ -10,7 +10,7 @@ function openInNewTab(target: string) {
 
 <template>
   <div class="flex-col pt-6 pb-8">
-    <p class="text-center pb-4">If you are ready to commission me, hit me up on these social media!</p>
+    <p class="text-center pb-4 px-4">If you are ready to commission me, hit me up on these social media!</p>
     <div class="flex justify-center gap-2">
       <button>
         <a href="mailto:egnarregnar@gmail.com">

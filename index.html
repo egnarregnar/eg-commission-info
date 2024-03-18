@@ -5,9 +5,43 @@
     <link rel="icon" type="image/png" href="/favicon.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Commission Info</title>
+    <style>
+      :root {
+        background: linear-gradient(
+          0deg,
+          rgba(241, 168, 134, 1) 0%,
+          rgba(255, 210, 189, 1) 100%
+        );
+        min-height: 100%;
+        font-family: "Mali", ui-sans-serif, sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        color: #4d0000;
+      }
+
+      .text-center {
+        text-align: center;
+        font-weight: 800;
+      }
+
+      .center-box {
+        z-index: -1;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        padding: 0.5em;
+        background-color: #fff;
+        border-radius: 0.5em;
+      }
+    </style>
   </head>
   <body>
     <div id="app"></div>
+    <div class="center-box">
+      <p class="text-center">Please turn on javascript</p>
+    </div>
     <script type="module" src="/src/main.ts"></script>
   </body>
 </html>
