@@ -2,10 +2,6 @@
 import IconTwitter from "~icons/skill-icons/twitter";
 import IconDiscord from "~icons/skill-icons/discord";
 import IconEmail from "~icons/formkit/email";
-
-function openInNewTab(target: string) {
-  window.open(target, "_blank");
-}
 </script>
 
 <template>
