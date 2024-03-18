@@ -17,19 +17,24 @@ function openInNewTab(target: string) {
           <IconEmail style="font-size: 2em; color: gray;" />
         </a>
       </button>
-      <button @click="openInNewTab('https://twitter.com/egnarregnar')">
-        <a href="https://twitter.com/egnarregnar">
-          <IconTwitter style="font-size: 2em; color: gray;" />
-        </a>
-      </button>
-      <button @click="openInNewTab('https://discord.com/invite/Tx4ppWVk')">
-        <a href="https://discord.com/invite/Tx4ppWVk">
-          <IconDiscord style="font-size: 2em; color: gray;" />
-        </a>
-      </button>
+      <a
+        href="https://twitter.com/egnarregnar"
+        target="_blank"
+      >
+        <IconTwitter style="font-size: 2em; color: gray;" />
+      </a>
+      <a
+        href="https://discord.com/invite/Tx4ppWVk"
+        target="_blank"
+      >
+        <IconDiscord style="font-size: 2em; color: gray;" />
+      </a>
     </div>
   </div>
 </template>
 
 <style>
+a[disabled="disabled"] {
+  pointer-events: none;
+}
 </style>
