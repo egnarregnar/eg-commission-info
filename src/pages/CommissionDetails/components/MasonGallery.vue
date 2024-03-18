@@ -6,6 +6,16 @@ defineProps<{
 }>();
 
 const highlightedImage = ref("");
+const imageAlignmentInGrid = (i: number) => {
+  switch (i) {
+    case 1:
+      return "justify-end";
+    case 2:
+      return "justify-center";
+    case 3:
+      return "justify-start";
+  }
+};
 </script>
 
 <template>
@@ -13,6 +23,7 @@ const highlightedImage = ref("");
     <div
       v-for="n in 3"
       class="grid gap-2"
+      :class="imageAlignmentInGrid(n)"
       :key="n"
     >
       <img
