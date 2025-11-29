@@ -2,7 +2,7 @@
   {
     "id": 0,
     "name": "Illustration",
-    "description": "Here I generally draw whatever you want! \n\n The base price for illustration is as followed:\n\n **Half Body & Flat Color**: 20USD\n\n **Full Body & Flat Color**: 25USD\n\n **Half Body & Full CG**: 30USD\n\n **Full Body & Full CG**: 35USD\n\n Grayscale is considered as Flat Color.\n\n Chibi is considered as Half Body.\n\n Each additional character costs at least 10USD.\n\n Simple background is free, but more complex background costs at least 10USD.\n\n I may charge you additionally for complex details.",
+    "description": "Here I generally draw whatever you want! \n\nThe base price for illustration is as followed:\n\n**Half Body & Flat Color**: 20USD\n\n**Full Body & Flat Color**: 25USD\n\n**Half Body & Full CG**: 30USD\n\n**Full Body & Full CG**: 35USD\n\nGrayscale is considered as Flat Color.\n\nChibi is considered as Half Body.\n\nEach additional character costs at least 10USD.\n\nSimple background is free, but more complex background costs at least 10USD.\n\nI may charge you additionally for complex details.",
     "thumbnail_image": "illust-half-full.png",
     "gallery_images": [
       "illust-1.png",
@@ -15,43 +15,43 @@
     "pricing_examples": [
       {
         "image": "illust-half-flat.png",
-        "description": " **Base half body flat color price**: 20USD\n\n **2 Extra Characters**: 10USD each\n\n **Total**: 40USD"
+        "description": " **Base half body flat color price**: 20USD\n\n**2 Extra Characters**: 10USD each\n\n**Total**: 40USD"
       },
       {
         "image": "illust-full-flat.png",
-        "description": " **Base full body flat color price**: 25USD\n\n **3 Extra characters**: 10USD each\n\n **Simple background**: Free\n\n **Total**: 55USD"
+        "description": " **Base full body flat color price**: 25USD\n\n**3 Extra characters**: 10USD each\n\n**Simple background**: Free\n\n**Total**: 55USD"
       },
       {
         "image": "illust-half-full.png",
-        "description": " **Base half body full color price**: 30USD\n\n **1 Extra Character**: 10USD each\n\n **Complex background**: 40USD\n\n **Total**: 80USD"
+        "description": " **Base half body full color price**: 30USD\n\n**1 Extra Character**: 10USD each\n\n**Complex background**: 40USD\n\n**Total**: 80USD"
       },
       {
         "image": "illust-full-full.png",
-        "description": " **Base full body full color price**: 35USD\n **1 Extra Character**: 10USD each (Goat)\n\n **Complext background**: 10USD (Paint over photo)\n\n **Total**: 55USD"
+        "description": " **Base full body full color price**: 35USD\n **1 Extra Character**: 10USD each (Goat)\n\n**Complext background**: 10USD (Paint over photo)\n\n**Total**: 55USD"
       }
     ]
   },
   {
     "id": 1,
     "name": "Comic",
-    "description": "I can draw a comic as well! You may have seen some on my Twitter. The pricing for this type of commission is a bit difficult to calculate because in addition to the drawing process, it might take a long time to settle on a draft. I will also charge additionally depending on the complexity. \n\n **Base grayscale comic price**: 50USD\n\n **Base color comic price**: 70USD\n\n **Max no. of pages**: 3",
+    "description": "I can draw a comic as well! You may have seen some on my Twitter. The pricing for this type of commission is a bit difficult to calculate because in addition to the drawing process, it might take a long time to settle on a draft. I will also charge additionally depending on the complexity. \n\n**Base grayscale comic price**: 50USD\n\n**Base color comic price**: 70USD\n\n**Max no. of pages**: 3",
     "thumbnail_image": "comic-thumbnail.png",
     "gallery_images": ["comic-1.png", "comic-2.png", "comic-3.png"],
     "pricing_examples": [
       {
         "image": "comic-grayscale.jpeg",
-        "description": " **Base grayscale comic price**: 50USD\n\n **Total**: 50USD"
+        "description": " **Base grayscale comic price**: 50USD\n\n**Total**: 50USD"
       },
       {
         "image": "comic-color.png",
-        "description": " **Base color comic price**: 70USD\n\n **Total**: 70USD"
+        "description": " **Base color comic price**: 70USD\n\n**Total**: 70USD"
       }
     ]
   },
   {
     "id": 2,
     "name": "Emotes/Stickers",
-    "description": "I can help design and draw emotes or stickers! Just let me know which platform you will use them on. There is no minimum or maximum number to commission, but I recommend commissioning in a batch of 5-10. And there might be additional charges for complexity.\n\n**Base price per emote**: 5USD\n\n Also thank you Rosa for allowing me to put your commission in my portfolio!",
+    "description": "I can help design and draw emotes or stickers! Just let me know which platform you will use them on. There is no minimum or maximum number to commission, but I recommend commissioning in a batch of 5-10. And there might be additional charges for complexity.\n\n**Base price per emote**: 5USD\n\nAlso thank you Rosa for allowing me to put your commission in my portfolio!",
     "thumbnail_image": "emote-2.png",
     "gallery_images": [
       "emote-1.png",
@@ -65,7 +65,7 @@
   {
     "id": 3,
     "name": "NSFW",
-    "description": "NSFW refers to any imagery that contains sexual acts or nudity. Characters simply in sexy clothing such as bikinis or even reverse bunny suit do not count as NSFW. Characters that are clothed but obviously are in sexual acts count as NSFW. I will determine what counts as NSFW and what price I will draw them for. Sample images are available on <u>[my Privatter](https://privatter.net/u/egnarregnar)</u> \n\n **Base price**: 70USD",
+    "description": "NSFW refers to any imagery that contains sexual acts or nudity. \n\nCharacters simply in sexy clothing such as bikinis or even reverse bunny suit do not count as NSFW. \n\nCharacters that are clothed but obviously are in sexual acts count as NSFW. \n\nI will determine what counts as NSFW and what price I will draw them for. \n\nSample images are available on <u>[my Privatter](https://privatter.net/u/egnarregnar)</u> \n\n**Base price**: 70USD",
     "thumbnail_image": "nervoso.gif"
   }
 ]
