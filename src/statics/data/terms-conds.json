@@ -1,16 +1,16 @@
 {
-  "version": 1,
-  "last_update": "2024-03-17",
-  "terms": "# Hello!\n\n Thank you for your interest! Before looking at the types of commission and prices, please read my terms of service. *By purchasing a commission from me, you have read and agreed to the following conditions as well as conditions stated in other pages on this website.*\n\n # Terms of Service\n\n - **PRESONAL USE ONLY.** This means you can post it on your social media but you must credit me. You are NOT allowed to use my work in any commercial uses including any streaming or paid membership-only discord server.\n\n - **TRAINING AI ABSOLUTELY NOT ALLOWED.**\n\n - I reserve the right to cancel the commission and not refund any payment in the event of a violation of my terms of service.\n\n - I reserve the right to refuse any commission that I don't want to do.\n\n - 50% of payment must be paid after a sketch has been approved. The last 50% of payment must be paid before the final product can be given. Tips is very appreciated but not necessary! \n\n - A refund may be available if I deem myself unable to complete the commission.\n\n - Up to 3 changes are allowed after the first payment without any additional cost. I reserve the right to demand additional costs or refuse changes deemed unreasonable. If an agreement cannot be reached, I may cancel the commission without refunds.\n\n - In general, I work without deadline since this is my hobby, but there will be regular communication and updates. If there is a deadline, please let me know before the first payment.\n\n # Available Payment Methods\n\n Payment will be made through invoices ONLY.\n\n - Wise (Preferable. However, you as the customer will handle all the processing fees).\n\n - Stripe (Debit or credit card only).\n\n - Paypal",
+  "version": 2,
+  "last_update": "2025-11-29",
+  "terms": "# Thank you for your interest! \n\n Before checking out the info, please read my **terms of service**. *By purchasing a commission from me and making the first payment, you have read and agreed to the following conditions.*\n\n # Terms of Service\n\n - **USAGE OF MY ART IN ANY AI TRAINING ABSOLUTELY NOT ALLOWED.** This includes ChatGPT, Gemini, Grok, Midjourney, Stable Diffusion, Canva, and any future AI services that fall into this category. This also includes any research in machine learning involving using my artwork as an input.\n\n - The price stated on this website is for **PERSONAL USE ONLY**. You will have to pay double the amount for commercial use. Commercial use includes usage on streaming services such as Youtube or Twitch, or paid or membership-only Discord server. If you are unsure, please ask me before the first payment.\n\n - I reserve the right to cancel the commission and not refund any payment in the event of a violation of my terms of service.\n\n - I reserve the right to refuse any commission that I don't want to do before the first payment.\n\n - 50% of payment must be paid after a sketch has been approved. The last 50% of payment must be paid before the final product can be given. Tips is very appreciated but not necessary! \n\n - A refund may be available if I deem myself unable to complete the commission.\n\n - Up to 3 changes are allowed after the first payment without any additional cost. I reserve the right to demand additional costs or refuse changes deemed unreasonable. If an agreement cannot be reached, I may cancel the commission without refunds.\n\n - If there is a deadline, please let me know before the first payment. Otherwise, an illustration can take from 2 weeks to a month. I will let you know before the first payment.\n\n # Available Payment Methods\n\n Payment will be made through INVOICES ONLY.\n\n - Wise (Preferable, but due to how Wise works, you will be the one paying the processing fee.).\n\n - Stripe (Debit or credit card only).\n\n - Paypal",
   "will_draw": [
+    "Uma Musume: Pretty Derby",
     "Love Live! Nijigasaki",
-    "Revue Starlight",
+    "Shoujo Kageki Revue Starlight",
     "Little Witch Academia",
     "Any anime or manga characters",
     "Any OCs with enough refs"
   ],
   "will_not_draw": [
-    "NSFW",
     "Gore",
     "Horror",
     "Mecha",

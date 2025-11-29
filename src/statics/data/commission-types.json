@@ -2,7 +2,7 @@
   {
     "id": 0,
     "name": "Illustration",
-    "description": "Here I can generally draw whatever you want! Except, if it is a comic or a set of emotes or stickers, please refer to their pages for the pricing.\n\n The base price for illustration is as followed:\n\n **Half Body & Flat Color**: 20USD\n\n **Full Body & Flat Color**: 25USD\n\n **Half Body & Full CG**: 30USD\n\n **Full Body & Full CG**: 35USD\n\n Grayscale is considered as Flat Color.\n\n Chibi is considered as Half Body.\n\n Each additional character costs at least 10USD.\n\n Simple background is free, but more complex background costs at least 10USD.\n\n I may charge you additionally for complex details.",
+    "description": "Here I generally draw whatever you want! \n\n The base price for illustration is as followed:\n\n **Half Body & Flat Color**: 20USD\n\n **Full Body & Flat Color**: 25USD\n\n **Half Body & Full CG**: 30USD\n\n **Full Body & Full CG**: 35USD\n\n Grayscale is considered as Flat Color.\n\n Chibi is considered as Half Body.\n\n Each additional character costs at least 10USD.\n\n Simple background is free, but more complex background costs at least 10USD.\n\n I may charge you additionally for complex details.",
     "thumbnail_image": "illust-half-full.png",
     "gallery_images": [
       "illust-1.png",
@@ -34,7 +34,7 @@
   {
     "id": 1,
     "name": "Comic",
-    "description": "I can draw a comic as well! You may have seen some on my Twitter here and there. The pricing for this type of commission is a bit difficult to calculate though because in addition to the drawing process, it might take a long time to settle on a draft. I will also charge additionally depending on the complexity as well. I am really sorry I can't say the exact range because there are so many factors.\n\n **Base grayscale comic price**: 50USD\n\n **Base color comic price**: 70USD\n\n **Max no. of pages**: 3",
+    "description": "I can draw a comic as well! You may have seen some on my Twitter. The pricing for this type of commission is a bit difficult to calculate because in addition to the drawing process, it might take a long time to settle on a draft. I will also charge additionally depending on the complexity. \n\n **Base grayscale comic price**: 50USD\n\n **Base color comic price**: 70USD\n\n **Max no. of pages**: 3",
     "thumbnail_image": "comic-thumbnail.png",
     "gallery_images": ["comic-1.png", "comic-2.png", "comic-3.png"],
     "pricing_examples": [
@@ -51,7 +51,7 @@
   {
     "id": 2,
     "name": "Emotes/Stickers",
-    "description": "And lastly, I can help design and draw emotes! (And yes, applied to Discord stickers as well). There is no minimum or maximum number to commission, but I recommend commissioning in a batch of 5-10. And as always, there might be additional charges for complexity.\n\n**Base price per emote**: 5USD\n\n Also thank you Rosa for allowing me to put your commission in my portfolio!",
+    "description": "I can help design and draw emotes or stickers! Just let me know which platform you will use them on. There is no minimum or maximum number to commission, but I recommend commissioning in a batch of 5-10. And there might be additional charges for complexity.\n\n**Base price per emote**: 5USD\n\n Also thank you Rosa for allowing me to put your commission in my portfolio!",
     "thumbnail_image": "emote-2.png",
     "gallery_images": [
       "emote-1.png",
@@ -61,5 +61,11 @@
       "emote-5.png",
       "emote-6.png"
     ]
+  },
+  {
+    "id": 3,
+    "name": "NSFW",
+    "description": "NSFW refers to any imagery that contains sexual acts or nudity. Characters simply in sexy clothing such as bikinis or even reverse bunny suit do not count as NSFW. Characters that are clothed but obviously are in sexual acts count as NSFW. I will determine what counts as NSFW and what price I will draw them for. Sample images are available on <u>[my Privatter](https://privatter.net/u/egnarregnar)</u> \n\n **Base price**: 70USD",
+    "thumbnail_image": "nervoso.gif"
   }
 ]
