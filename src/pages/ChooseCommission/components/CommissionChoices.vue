@@ -14,7 +14,7 @@ const choices = getChoices();
       @click="choose(choice)"
       :key="choice.id"
       :headerImage="choice.thumbnail_image"
-      cardClasses="w-64"
+      cardClasses="w-64 cursor-pointer"
       imageClasses="h-48"
     >
       <div class="flex p-6 justify-center">
