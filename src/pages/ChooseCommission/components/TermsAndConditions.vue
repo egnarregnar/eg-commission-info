@@ -33,6 +33,17 @@ import TermsAndConditions from "@data/terms-conds.json";
       </div>
     </div>
     <p>If you are unsure, just ask! I am on Twitter and Discord, or you can even email me (But I don't check it often, sorry).</p>
+    <h1 class="text-center">Special Discount</h1>
+    <p>I will give discount of <u>5%</u> for any artwork with the following characters!</p>
+    <ul class="mx-6">
+          <li
+            style="padding-left: 0;"
+            :key="index"
+            v-for="(item, index) in TermsAndConditions.special_discount"
+          >
+            <p>{{ item }}</p>
+          </li>
+        </ul>
     <h1 class="text-center">Pricing</h1>
     <p class="text-center pb-4">What type of commission would you like?</p>
   </div>
