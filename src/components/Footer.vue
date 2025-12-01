@@ -29,7 +29,7 @@ import IconEmail from "~icons/formkit/email";
         href="https://ko-fi.com/egnarregnar"
         target="_blank"
       >
-        <img class="max-h-10" src="../../public/kofi.png" />
+        <img class="max-h-10" src="/kofi.png" />
       </a>
     </div>
   </div>
