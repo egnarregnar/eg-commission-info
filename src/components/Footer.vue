@@ -7,7 +7,7 @@ import IconEmail from "~icons/formkit/email";
 <template>
   <div class="flex-col pt-6 pb-8">
     <p class="text-center pb-4 px-4">If you are ready to commission me, hit me up on these social media!</p>
-    <div class="flex justify-center gap-2">
+    <div class="flex justify-center items-center gap-2">
       <button>
         <a href="mailto:egnarregnar@gmail.com">
           <IconEmail style="font-size: 2em; color: gray;" />
@@ -24,6 +24,12 @@ import IconEmail from "~icons/formkit/email";
         target="_blank"
       >
         <IconDiscord style="font-size: 2em; color: gray;" />
+      </a>
+      <a
+        href="https://ko-fi.com/egnarregnar"
+        target="_blank"
+      >
+        <img class="max-h-10" src="../../public/kofi.png" />
       </a>
     </div>
   </div>
